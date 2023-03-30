@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请在设置页填写授权码。",
+    Unauthorized: "现在是未授权状态，请在设置页填写key，没有key请到首页获取，返回首页：https://www.infoepoch.cn",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -96,7 +96,7 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过受控访问限制",
+      SubTitle: "使用自己的 Key 可绕过受控访问限制,没有请到首页获取：www.infoepoch.cn",
       Placeholder: "OpenAI API Key",
     },
     Usage: {
@@ -110,7 +110,7 @@ const cn = {
     AccessCode: {
       Title: "访问码",
       SubTitle: "现在是受控访问状态",
-      Placeholder: "请输入访问码",
+      Placeholder: "访问码模式已关闭，请使用key",
     },
     Model: "模型 (model)",
     Temperature: {
@@ -128,8 +128,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    BotHello: "我是AI宇宙助手，与我对话请点击左下角设置页面自行设置key，没有key请到首页（https://www.infoepoch.cn）获取，有什么可以帮你的吗",
+    Error: "出错了，稍后重试吧，返回首页：（https://www.infoepoch.cn）",
     Prompt: {
       History: (content: string) =>
         "这是 ai 和用户的历史聊天总结作为前情提要：" + content,
