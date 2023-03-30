@@ -125,10 +125,6 @@ const cn = {
       Title: "话题新鲜度 (presence_penalty)",
       SubTitle: "值越大，越有可能扩展到新话题",
     },
-    PresencePenlty2: {
-      Title: "回到首页（www.infoepoch.cn）",
-      SubTitle: "回到首页导航页面",
-    },
   },
   Store: {
     DefaultTopic: "新的聊天",
