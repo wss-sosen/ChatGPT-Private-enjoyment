@@ -613,7 +613,9 @@ export function Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT 部署版</div>
           <div className={styles["sidebar-sub-title"]}>
-            构建国内无限制访问的人工智能助手，速度更快，反应更灵敏，功能更全面！
+            构建国内便捷访问的人工智能助手，速度更快，反应更灵敏，功能更全面！本项目是Yifei Zhang在github.com上传的开源项目，经infoepoch在本网部署，供大家交流学习.目前提供的可用模型为3.5版本，与ChatGPT原版无甚区别。更多资讯可关注infoepoch官网（www.infoepoch.cn）。感谢支持！
+            ⚠️注意：本项目需自行设置openai API Key方可正常使用，因为接口调用会有成本产生，故给免费提供部署版项目，但是需要使用自己的key或到官网购买key使用，具体免费申请或者付费购买的方式请浏览官网！
+
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
