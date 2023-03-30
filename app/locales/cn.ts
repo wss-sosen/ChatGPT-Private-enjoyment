@@ -128,7 +128,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "我是AI宇宙助手，与我对话请点击左下角设置页面自行设置key，没有key请到首页（https://www.infoepoch.cn）获取，有什么可以帮你的吗",
+    BotHello: "我是AI宇宙助手，与我对话请点击左下角设置页面自行设置key，没有key请到首页获取，有什么可以帮你的吗 https://www.infoepoch.cn ",
     Error: "出错了，稍后重试吧，返回首页：（https://www.infoepoch.cn）",
     Prompt: {
       History: (content: string) =>
