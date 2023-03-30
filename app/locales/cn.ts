@@ -96,7 +96,7 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过受控访问限制,没有请到首页获取：www.infoepoch.cn",
+      SubTitle: "使用自己的 Key 可开始对话,没有请到首页获取：www.infoepoch.cn",
       Placeholder: "OpenAI API Key",
     },
     Usage: {
@@ -128,7 +128,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "我是infoepoch智能助手，与我对话请点击左下角设置页面自行设置key，没有key请到首页获取，有什么可以帮你的吗 https://www.infoepoch.cn ",
+    BotHello: "好高兴与你相遇！我是ChatGPT,一个由infoepoch团队部署在网站的AI智能助手，我的中文名字叫做元元，与我对话需要点击左下角设置页面自行设置key，没有key请到首页获取，期待与您聊天哟！ https://www.infoepoch.cn ",
     Error: "出错了，稍后重试吧，返回首页：https://www.infoepoch.cn",
     Prompt: {
       History: (content: string) =>
