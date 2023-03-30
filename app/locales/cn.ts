@@ -66,12 +66,10 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前版本：${x}`,
+      Version: (x: string) => `源代码由Yidadaa
+Yifei Zhang开发`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
-      IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
     },
     SendKey: "发送键",
     Theme: "主题",
@@ -129,7 +127,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello: "我是AI宇宙助手，与我对话请点击左下角设置页面自行设置key，没有key请到首页获取，有什么可以帮你的吗 https://www.infoepoch.cn ",
-    Error: "出错了，稍后重试吧，返回首页：（https://www.infoepoch.cn）",
+    Error: "出错了，稍后重试吧，返回首页：https://www.infoepoch.cn",
     Prompt: {
       History: (content: string) =>
         "这是 ai 和用户的历史聊天总结作为前情提要：" + content,
