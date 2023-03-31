@@ -108,9 +108,9 @@ const cn = {
       Check: "重新检查",
     },
     AccessCode: {
-      Title: "访问码",
+      Title: "infoepoch授权码",
       SubTitle: "现在是受控访问状态",
-      Placeholder: "访问码模式已关闭，请使用key",
+      Placeholder: "请填入授权码",
     },
     Model: "模型 (model)",
     Temperature: {
@@ -128,7 +128,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "好高兴与你相遇！我是ChatGPT,一个由openAI开发并由infoepoch团队部署在网站的AI智能助手，我的中文名字叫做元元，与我对话需要点击左下角设置页面自行设置key，没有key请到首页获取，期待与您聊天哟！获取地方式： https://www.infoepoch.cn/888.html ",
+    BotHello: "好高兴与你相遇！我是ChatGPT,一个由openAI开发并由infoepoch团队部署在网站的AI智能助手，我的中文名字叫做元元，与我对话需要点击左下角设置页面自行设置key或授权码，没有key或授权码请到首页获取，期待与您聊天哟！获取地方式： https://www.infoepoch.cn/888.html ",
     Error: "出错了，稍后重试吧，返回首页：https://www.infoepoch.cn",
     Prompt: {
       History: (content: string) =>
