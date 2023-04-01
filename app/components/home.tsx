@@ -613,7 +613,7 @@ export function Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT 部署版</div>
           <div className={styles["sidebar-sub-title"]}>
-            构建国内便捷访问的人工智能助手，速度更快，反应更灵敏，功能更全面！本项目是Yifei Zhang在github.com上传的开源项目，经infoepoch在本网部署，供大家交流学习.目前提供的可用模型为3.5版本，与ChatGPT原版无甚区别。更多资讯可关注infoepoch官网www.infoepoch.cn。感谢支持！
+            构建国内便捷访问的人工智能助手，速度更快，反应更灵敏，功能更全面！本项目是Yifei Zhang在github.com的开源项目，经infoepoch二次开发并在本网部署，供大家交流学习.目前提供的可用模型为3.5版本，与ChatGPT原版无甚区别。更多资讯可关注infoepoch官网www.infoepoch.cn。感谢支持！
 
           </div>
           <div className={styles["sidebar-logo"]}>
