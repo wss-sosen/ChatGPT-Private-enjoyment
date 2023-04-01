@@ -4,7 +4,7 @@ import fs from "fs/promises";
 const CN_URL =
   "https://www.infoepoch.cn/prompt/prompts-zh.json";
 const EN_URL =
-  "https://raw.githubusercontent.com/f/awesome-chatgpt-prompts/main/prompts.csv";
+  "https://www.infoepoch.cn/prompt/prompts.csv";
 const FILE = "./public/prompts.json";
 
 async function fetchCN() {
