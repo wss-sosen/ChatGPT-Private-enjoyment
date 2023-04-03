@@ -128,7 +128,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "好高兴与你相遇！我是ChatGPT,一个由openAI开发并由infoepoch团队部署的人工智能语言模型，与我对话需要点击左下角设置页面自行设置key或授权码，没有key或授权码请到首页获取，期待与您聊天哟！获取地方式： https://www.infoepoch.cn/888.html ",
+    BotHello: "好高兴与你相遇！我是ChatGPT,一个由openAI开发并由infoepoch团队部署的人工智能语言模型，与我对话需要点击左下角设置页面自行设置key或授权码，没有key或授权码请到首页获取，期待与您聊天哟！获取方式： https://www.infoepoch.cn/888.html ",
     Error: "出错了，稍后重试吧，返回首页：https://www.infoepoch.cn",
     Prompt: {
       History: (content: string) =>
