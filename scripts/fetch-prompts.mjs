@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 import fs from "fs/promises";
 
 const CN_URL =
-  "https://www.infoepoch.cn/prompt/prompts-zh.json";
+  "./prompts-zh.json";
 const EN_URL =
   "https://www.infoepoch.cn/prompt/prompts.csv";
 const FILE = "./public/prompts.json";
