@@ -67,11 +67,11 @@ const cn = {
 
     Update: {
       Version: (x: string) => `当前版本：${x}`,
-      IsLatest: "已是最新版本",
+      IsLatest: "已经推出新版本",
       CheckUpdate: "检查更新",
-      IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
+      IsChecking: "已经推出新版...",
+      FoundUpdate: (x: string) => `新版已经可用！：${x}`,
+      GoToUpdate: "前往新版",
     },
     SendKey: "发送键",
     Theme: "主题",
