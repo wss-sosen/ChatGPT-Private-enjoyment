@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请在设置页填写key或者授权码，没有授权码请到首页获取，前往获取：https://www.infoepoch.cn/888.html",
+    Unauthorized: "请在设置页面填入openAI KPI key进行访问，本版本永久免费使用。体验新版请前往https://chat.infoepoch.cn",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -96,7 +96,7 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可开始对话,没有请到首页获取：www.infoepoch.cn",
+      SubTitle: "使用自己的 Key 可开始对话,此版本停止更新，停止授权码访问",
       Placeholder: "OpenAI API Key",
     },
     Usage: {
@@ -128,8 +128,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "好高兴与你相遇！我是ChatGPT,一个由openAI开发并由infoepoch团队部署的人工智能语言模型，与我对话需要点击左下角设置页面自行设置key或授权码，没有key或授权码请到首页获取，期待与您聊天哟！获取方式： https://www.infoepoch.cn/888.html ",
-    Error: "出错了，稍后重试吧，返回首页：https://www.infoepoch.cn",
+    BotHello: "请在设置页面填入openAI KPI key进行访问，本版本永久免费使用。体验新版请前往https://chat.infoepoch.cn ",
+    Error: "出错了，稍后重试吧，返回首页：https://www.infoepoch.cn或前往新版：https://chat.infoepoch.cn",
     Prompt: {
       History: (content: string) =>
         "这是 ai 和用户的历史聊天总结作为前情提要：" + content,

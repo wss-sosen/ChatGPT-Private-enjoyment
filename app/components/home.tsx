@@ -611,9 +611,9 @@ export function Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT 部署版</div>
+          <div className={styles["sidebar-title"]}>ChatGPT 免费版</div>
           <div className={styles["sidebar-sub-title"]}>
-            构建国内便捷访问的人工智能助手，速度更快，反应更灵敏，功能更全面！更多资讯可关注infoepoch官网www.infoepoch.cn。
+            构建国内便捷访问的人工智能助手，速度更快，反应更灵敏，功能更全面！版本来自于Yidadaa的开源项目，更多资讯可关注infoepoch官网www.infoepoch.cn。
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ width: "50%" }}>
